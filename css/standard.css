@@ -26,7 +26,7 @@ body {
   color: #2a4f6e;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  padding-top: 50px;
+  padding-top: 75px;
 }
 .stdtable table {
   width: 100%;
@@ -111,4 +111,41 @@ hr {
 }
 .btn-primary {
   background-color: #2a4f6e;
+}
+.btn-default {
+  color: #2a4f6e;
+}
+.navbar-bg {
+  background-color: #e6eef4;
+  color: #597c9a;
+}
+.navbar-bg a {
+  color: #597c9a;
+}
+.navbar-symbol {
+  color: #333333;
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/OpenSans-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(../fonts/OpenSans-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Lato Hairline'), local('Lato-Hairline'), url(../fonts/Lato-Hairline.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(../fonts/Lato-Light.ttf) format('truetype');
 }
