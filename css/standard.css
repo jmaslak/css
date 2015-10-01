@@ -1,0 +1,114 @@
+.color-1 {
+  background-color: #ffffff;
+  color: #2a4f6e;
+}
+.color-2 {
+  background-color: #e6eef4;
+  color: #2a4f6e;
+}
+.color-3 {
+  background-color: #2a4f6e;
+  color: #e6e6bc;
+}
+.font-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.text-thin {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+.text-muted {
+  color: #597c91;
+}
+body {
+  background-color: #ffffff;
+  color: #2a4f6e;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  padding-top: 50px;
+}
+.stdtable table {
+  width: 100%;
+}
+.stdtable,
+.stdtable th,
+.stdtable td {
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+.stdtable th,
+.stdtable td {
+  padding: 5px;
+}
+.stdtable tr:nth-child(even) {
+  background-color: #ffffff;
+  color: #2a4f6e;
+}
+.stdtable tr:nth-child(odd) {
+  background-color: #e6eef4;
+  color: #2a4f6e;
+}
+.stdtable tr:nth-child(1) th,
+.stdtable th {
+  background-color: #2a4f6e;
+  color: #e6e6bc;
+}
+.stdtable > tbody > tr > td {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.stdtable th a {
+  color: #cccca7;
+}
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after {
+  content: " \25B4\25BE";
+}
+hr {
+  height: 3px;
+  color: #597c91;
+  background-color: #597c91;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.title {
+  background-color: #597c9a;
+  color: #e6e6bc;
+  margin-top: -10px;
+}
+.title a {
+  color: #cccca7;
+}
+.title-logo {
+  margin-top: 20px;
+}
+.title-super {
+  font-size: 3em;
+}
+.footer {
+  background-color: #597c9a;
+  color: #e6e6bc;
+}
+.footer {
+  padding: 0px;
+  min-height: 35px;
+  height: 35px;
+  font-size: 15px;
+}
+.footer .navbar-header {
+  padding: 5px;
+}
+.footer a {
+  color: #cccca7;
+}
+.navbar-center {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+.margin-large-bottom {
+  margin-bottom: 30px;
+}
+.btn-primary {
+  background-color: #2a4f6e;
+}
