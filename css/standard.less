@@ -20,6 +20,7 @@
 @border-color: #000000;
 
 @hr-color: #597C91;
+@hr-thin-color: #E6EEF4;
 
 .color-1 {
   background-color: @bg-1;
@@ -57,10 +58,11 @@ body {
 }
 
 .stdtable table {
+  border: 1px solid @border-color;
   width: 100%;
 }
 
-.stdtable, .stdtable th, .stdtable td {
+.stdtable, .stdtable th, .stdtable td, .stdtable tr {
   border: 1px solid @border-color;
   border-collapse: collapse;
 }
@@ -81,9 +83,13 @@ body {
   .color-3;
 }
 
-.stdtable>tbody>tr>td {
+.stdtable>tbody>tr>td,
+.stdtable>tbody>tr>th,
+.stdtable>thead>tr>td,
+.stdtable>thead>tr>th {
   padding-top: 1px;
   padding-bottom: 1px;
+  border: 1px solid @border-color;
 }
 
 .stdtable th a {
@@ -94,12 +100,50 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
   content: " \25B4\25BE";
 }
 
+.transparent table {
+  width: 100%;
+  border: 0;
+  border-style: hidden;
+}
+
+.transparent, .transparent tr, .transparent th, .transparent td {
+  border: 0;
+}
+
+.transparent th, .transparent td {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border: 0;
+  border-style: hidden;
+}
+
+.transparent>tbody>tr>td,
+.transparent>tbody>tr>th {
+  padding-top: 0;
+  padding-bottom: 0;
+  border: 0;
+  border-style: hidden;
+}
+
+.transparent th a {
+  color: @fg-title-link;
+}
+
+
 hr {
   height: 3px;
   color: @hr-color;
   background-color: @hr-color;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.thin {
+  height: 1px;
+  color: @hr-thin-color;
+  background-color: @hr-thin-color;
 }
 
 .title {
@@ -173,6 +217,28 @@ hr {
 
 .navbar-symbol {
   color: @fg-nav-symbol;
+}
+
+.mapcanvas {
+  border: 1px solid #000000;
+}
+
+
+.ul-cols {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.li-head {
+  float: left;
+  width: 90px;
+}
+
+
+.small-padding {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 @font-face {
