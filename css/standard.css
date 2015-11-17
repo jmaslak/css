@@ -21,6 +21,9 @@
 .text-muted {
   color: #597c91;
 }
+.text-x-large {
+  font-size: 400%;
+}
 body {
   background-color: #ffffff;
   color: #2a4f6e;
