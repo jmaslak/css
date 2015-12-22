@@ -148,6 +148,9 @@ hr {
 .footer a {
   color: #cccca7;
 }
+.nowrap {
+  white-space: nowrap;
+}
 .navbar-center {
   margin: 0 auto;
   width: 100%;
